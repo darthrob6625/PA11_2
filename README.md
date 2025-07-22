@@ -26,7 +26,7 @@ The dataset contains 426,880 entries of used car sales and 18 features describin
 - Manufacturer
 - State
 
-### Evaluation
+### Evaluation & Findings
 
 After completing Practical Application 2, I developed **six models**, progressing from a single feature to multiple features. In retrospect, the maximum number of features I incorporated was seven. I would like to investigate the impact on MSE when using a larger set of features.
 
