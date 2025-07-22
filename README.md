@@ -37,7 +37,9 @@ improve model performance.
 
 A significant portion of my time was dedicated to data cleaning and preparation. I filtered the dataset to include vehicles priced between two thousand five hundred and one hundred fifty thousand dollars, which helped remove salvage vehicles and extreme outliers. Additionally, I limited the model to cars manufactured between 1980 and 2020 to exclude the period impacted by COVID related disruptions in vehicle sales.
 
-Ultimately, I reduced the dataset to four key variables: year or age, odometer, manufacturer, and price. However, I suspect that these features alone were insufficient to accurately predict prices or achieve a satisfactory MSE. 
+Ultimately, I reduced the dataset to four key variables: year or age, odometer, manufacturer, and price. However, I suspect that these features alone were insufficient to accurately predict prices or achieve a satisfactory MSE.
+
+![MSE Summary]("mse_summary.png")
 
 
 
