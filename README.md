@@ -3,7 +3,7 @@
 
 Link: [PA2.ipynb](PA2.ipynb)
 
-Note: As instructed during office hours, the CSV file has not been uploaded directly to GitHub due to its size (>50MB). Instead, a direct link to the dataset has been included in the Jupyter Notebook for reference and access. The program has been tested and runs without any errors.
+* *Note: As instructed during office hours, the CSV file has not been uploaded directly to GitHub due to its size (>50MB). Instead, a direct link to the dataset has been included in the Jupyter Notebook for reference and access. The program has been tested and runs without any errors. * *
 
 ### Problem Statement
 
@@ -28,7 +28,7 @@ The dataset contains 426,880 entries of used car sales and 18 features describin
 
 ### Evaluation
 
-After completing Practical Application 2, I developed six models, progressing from a single feature to multiple features. In retrospect, the maximum number of features I incorporated was seven. I would like to investigate the impact on MSE when using a larger set of features.
+After completing Practical Application 2, I developed **six models**, progressing from a single feature to multiple features. In retrospect, the maximum number of features I incorporated was seven. I would like to investigate the impact on MSE when using a larger set of features.
 
 For instance, while analyzing the manufacturer variable, I identified over forty unique values. Rather than creating one hot encoding for each category, I opted to assign a single popular variable, similar to the lecture example where day of the week was converted into binary form. I would apply a similar approach to the state variable in future iterations.
 
@@ -38,4 +38,8 @@ improve model performance.
 A significant portion of my time was dedicated to data cleaning and preparation. I filtered the dataset to include vehicles priced between two thousand five hundred and one hundred fifty thousand dollars, which helped remove salvage vehicles and extreme outliers. Additionally, I limited the model to cars manufactured between 1980 and 2020 to exclude the period impacted by COVID related disruptions in vehicle sales.
 
 Ultimately, I reduced the dataset to four key variables: year or age, odometer, manufacturer, and price. However, I suspect that these features alone were insufficient to accurately predict prices or achieve a satisfactory MSE. 
+
+
+
+
 
