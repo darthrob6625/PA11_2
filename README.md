@@ -39,7 +39,7 @@ A significant portion of my time was dedicated to data cleaning and preparation.
 
 Ultimately, I reduced the dataset to four key variables: year or age, odometer, manufacturer, and price. However, I suspect that these features alone were insufficient to accurately predict prices or achieve a satisfactory MSE.
 
-![MSE Summary]("mse_summary.png")
+![MSE Summary](mse_summary.png)
 
 
 
